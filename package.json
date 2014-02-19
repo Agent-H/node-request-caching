@@ -1,8 +1,8 @@
 {
-  "name": "node-request-caching",  
+  "name": "node-request-caching",
   "version": "0.0.1",
   "author": "Matteo Agosti <matteo@matteoagosti.com>",
-  "description": "HTTP and HTTPS requests with caching for node.js",  
+  "description": "HTTP and HTTPS requests with caching for node.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
@@ -18,12 +18,11 @@
     "request"
   ],
   "dependencies": {
-    "hiredis": "0.1.x",
     "redis": "0.7.x"
   },
   "devDependencies": {
     "mocha": "1.4.x"
-  },  
+  },
   "license": "MIT",
   "engines": {
     "node": ">=0.6"
